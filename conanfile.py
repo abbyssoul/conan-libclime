@@ -20,7 +20,7 @@ class LibclimeConan(ConanFile):
     default_options = "shared=False", "fPIC=True"
     generators = "cmake"
 
-    requires = "libsolace/0.1.1@abbyssoul/stable"
+    requires = "libsolace/0.1.2@abbyssoul/stable"
 
     def config_options(self):
         if self.settings.os == "Windows":
